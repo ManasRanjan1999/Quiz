@@ -1,0 +1,632 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": {
+      "option1": "Berlin",
+      "option2": "Madrid",
+      "option3": "Paris",
+      "option4": "Lisbon"
+    },
+    "correct_option": "Paris"
+  },
+  {
+    "question": "What is 2 + 2?",
+    "options": {
+      "option1": "3",
+      "option2": "4",
+      "option3": "5",
+      "option4": "6"
+    },
+    "correct_option": "4"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": {
+      "option1": "Earth",
+      "option2": "Mars",
+      "option3": "Jupiter",
+      "option4": "Saturn"
+    },
+    "correct_option": "Mars"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "options": {
+      "option1": "Mark Twain",
+      "option2": "Charles Dickens",
+      "option3": "William Shakespeare",
+      "option4": "Jane Austen"
+    },
+    "correct_option": "William Shakespeare"
+  },
+  {
+    "question": "What is the largest mammal?",
+    "options": {
+      "option1": "Elephant",
+      "option2": "Blue Whale",
+      "option3": "Giraffe",
+      "option4": "Hippopotamus"
+    },
+    "correct_option": "Blue Whale"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "options": {
+      "option1": "Beijing",
+      "option2": "Seoul",
+      "option3": "Tokyo",
+      "option4": "Hong Kong"
+    },
+    "correct_option": "Tokyo"
+  },
+  {
+    "question": "Which element has the chemical symbol O?",
+    "options": {
+      "option1": "Oxygen",
+      "option2": "Osmium",
+      "option3": "Ozone",
+      "option4": "Ocelot"
+    },
+    "correct_option": "Oxygen"
+  },
+  {
+    "question": "What is the square root of 16?",
+    "options": {
+      "option1": "2",
+      "option2": "4",
+      "option3": "8",
+      "option4": "16"
+    },
+    "correct_option": "4"
+  },
+  {
+    "question": "Which ocean is the largest?",
+    "options": {
+      "option1": "Atlantic",
+      "option2": "Indian",
+      "option3": "Arctic",
+      "option4": "Pacific"
+    },
+    "correct_option": "Pacific"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": {
+      "option1": "Vincent van Gogh",
+      "option2": "Pablo Picasso",
+      "option3": "Leonardo da Vinci",
+      "option4": "Claude Monet"
+    },
+    "correct_option": "Leonardo da Vinci"
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "options": {
+      "option1": "Sydney",
+      "option2": "Melbourne",
+      "option3": "Canberra",
+      "option4": "Brisbane"
+    },
+    "correct_option": "Canberra"
+  },
+  {
+    "question": "What is the boiling point of water?",
+    "options": {
+      "option1": "100°C",
+      "option2": "90°C",
+      "option3": "110°C",
+      "option4": "120°C"
+    },
+    "correct_option": "100°C"
+  },
+  {
+    "question": "What is the chemical formula of water?",
+    "options": {
+      "option1": "CO2",
+      "option2": "H2O",
+      "option3": "O2",
+      "option4": "H2SO4"
+    },
+    "correct_option": "H2O"
+  },
+  {
+    "question": "Who is known as the father of modern physics?",
+    "options": {
+      "option1": "Isaac Newton",
+      "option2": "Albert Einstein",
+      "option3": "Nikola Tesla",
+      "option4": "Galileo Galilei"
+    },
+    "correct_option": "Albert Einstein"
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": {
+      "option1": "China",
+      "option2": "Japan",
+      "option3": "Thailand",
+      "option4": "South Korea"
+    },
+    "correct_option": "Japan"
+  },
+  {
+    "question": "What is the largest country by land area?",
+    "options": {
+      "option1": "Canada",
+      "option2": "Russia",
+      "option3": "United States",
+      "option4": "China"
+    },
+    "correct_option": "Russia"
+  },
+  {
+    "question": "Which animal is the fastest land animal?",
+    "options": {
+      "option1": "Lion",
+      "option2": "Elephant",
+      "option3": "Cheetah",
+      "option4": "Gazelle"
+    },
+    "correct_option": "Cheetah"
+  },
+  {
+    "question": "In which continent is the Sahara Desert located?",
+    "options": {
+      "option1": "Asia",
+      "option2": "Africa",
+      "option3": "Australia",
+      "option4": "North America"
+    },
+    "correct_option": "Africa"
+  },
+  {
+    "question": "Which of the following is a prime number?",
+    "options": {
+      "option1": "10",
+      "option2": "12",
+      "option3": "7",
+      "option4": "15"
+    },
+    "correct_option": "7"
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "options": {
+      "option1": "Amazon",
+      "option2": "Nile",
+      "option3": "Yangtze",
+      "option4": "Mississippi"
+    },
+    "correct_option": "Nile"
+  },
+  {
+    "question": "Who invented the light bulb?",
+    "options": {
+      "option1": "Nikola Tesla",
+      "option2": "Thomas Edison",
+      "option3": "Alexander Graham Bell",
+      "option4": "Benjamin Franklin"
+    },
+    "correct_option": "Thomas Edison"
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "options": {
+      "option1": "Ottawa",
+      "option2": "Toronto",
+      "option3": "Vancouver",
+      "option4": "Montreal"
+    },
+    "correct_option": "Ottawa"
+  },
+  {
+    "question": "What gas do plants absorb from the atmosphere for photosynthesis?",
+    "options": {
+      "option1": "Oxygen",
+      "option2": "Carbon Dioxide",
+      "option3": "Nitrogen",
+      "option4": "Methane"
+    },
+    "correct_option": "Carbon Dioxide"
+  },
+  {
+    "question": "Which animal is known for its ability to change color?",
+    "options": {
+      "option1": "Chameleon",
+      "option2": "Octopus",
+      "option3": "Squid",
+      "option4": "Snake"
+    },
+    "correct_option": "Chameleon"
+  },
+  {
+    "question": "Which country invented pizza?",
+    "options": {
+      "option1": "Italy",
+      "option2": "Greece",
+      "option3": "France",
+      "option4": "United States"
+    },
+    "correct_option": "Italy"
+  },
+  {
+    "question": "Which country is home to the Great Barrier Reef?",
+    "options": {
+      "option1": "Australia",
+      "option2": "New Zealand",
+      "option3": "South Africa",
+      "option4": "United States"
+    },
+    "correct_option": "Australia"
+  },
+  {
+    "question": "What is the smallest country in the world?",
+    "options": {
+      "option1": "Monaco",
+      "option2": "Vatican City",
+      "option3": "San Marino",
+      "option4": "Liechtenstein"
+    },
+    "correct_option": "Vatican City"
+  },
+  {
+    "question": "Which continent is the Amazon Rainforest located in?",
+    "options": {
+      "option1": "Asia",
+      "option2": "Africa",
+      "option3": "South America",
+      "option4": "Australia"
+    },
+    "correct_option": "South America"
+  },
+  {
+    "question": "What is the largest island in the world?",
+    "options": {
+      "option1": "Greenland",
+      "option2": "Australia",
+      "option3": "Borneo",
+      "option4": "New Guinea"
+    },
+    "correct_option": "Greenland"
+  },
+  {
+    "question": "Who developed the theory of relativity?",
+    "options": {
+      "option1": "Isaac Newton",
+      "option2": "Galileo Galilei",
+      "option3": "Albert Einstein",
+      "option4": "Max Planck"
+    },
+    "correct_option": "Albert Einstein"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "options": {
+      "option1": "Au",
+      "option2": "Ag",
+      "option3": "Fe",
+      "option4": "Pb"
+    },
+    "correct_option": "Au"
+  },
+  {
+    "question": "What is the longest bone in the human body?",
+    "options": {
+      "option1": "Femur",
+      "option2": "Tibia",
+      "option3": "Humerus",
+      "option4": "Radius"
+    },
+    "correct_option": "Femur"
+  },
+  {
+    "question": "Which of these is a gas at room temperature?",
+    "options": {
+      "option1": "Water",
+      "option2": "Oxygen",
+      "option3": "Iron",
+      "option4": "Mercury"
+    },
+    "correct_option": "Oxygen"
+  },
+  {
+    "question": "Which country invented the first successful airplane?",
+    "options": {
+      "option1": "United Kingdom",
+      "option2": "France",
+      "option3": "Germany",
+      "option4": "United States"
+    },
+    "correct_option": "United States"
+  },
+  {
+    "question": "Which country is the origin of the game 'Judo'?",
+    "options": {
+      "option1": "China",
+      "option2": "Korea",
+      "option3": "Japan",
+      "option4": "Brazil"
+    },
+    "correct_option": "Japan"
+  },
+  {
+    "question": "What is the capital of Italy?",
+    "options": {
+      "option1": "Rome",
+      "option2": "Florence",
+      "option3": "Venice",
+      "option4": "Milan"
+    },
+    "correct_option": "Rome"
+  },
+  {
+    "question": "In which city would you find the Eiffel Tower?",
+    "options": {
+      "option1": "London",
+      "option2": "Paris",
+      "option3": "Berlin",
+      "option4": "Rome"
+    },
+    "correct_option": "Paris"
+  },
+  {
+    "question": "Who was the first president of the United States?",
+    "options": {
+      "option1": "George Washington",
+      "option2": "Thomas Jefferson",
+      "option3": "Abraham Lincoln",
+      "option4": "John Adams"
+    },
+    "correct_option": "George Washington"
+  },
+  {
+    "question": "Which gas do humans exhale?",
+    "options": {
+      "option1": "Oxygen",
+      "option2": "Carbon Dioxide",
+      "option3": "Nitrogen",
+      "option4": "Hydrogen"
+    },
+    "correct_option": "Carbon Dioxide"
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "options": {
+      "option1": "Gold",
+      "option2": "Diamond",
+      "option3": "Platinum",
+      "option4": "Iron"
+    },
+    "correct_option": "Diamond"
+  },
+  {
+    "question": "Which of these animals is a mammal?",
+    "options": {
+      "option1": "Lizard",
+      "option2": "Shark",
+      "option3": "Whale",
+      "option4": "Frog"
+    },
+    "correct_option": "Whale"
+  },
+  {
+    "question": "What is the capital of Spain?",
+    "options": {
+      "option1": "Madrid",
+      "option2": "Barcelona",
+      "option3": "Seville",
+      "option4": "Valencia"
+    },
+    "correct_option": "Madrid"
+  },
+  {
+    "question": "What is the name of the tallest mountain in the world?",
+    "options": {
+      "option1": "K2",
+      "option2": "Mount Kilimanjaro",
+      "option3": "Mount Everest",
+      "option4": "Mount Fuji"
+    },
+    "correct_option": "Mount Everest"
+  },
+  {
+    "question": "What type of animal is a Komodo Dragon?",
+    "options": {
+      "option1": "Mammal",
+      "option2": "Reptile",
+      "option3": "Bird",
+      "option4": "Fish"
+    },
+    "correct_option": "Reptile"
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
+    "options": {
+      "option1": "Earth",
+      "option2": "Venus",
+      "option3": "Mercury",
+      "option4": "Mars"
+    },
+    "correct_option": "Mercury"
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "options": {
+      "option1": "Yuan",
+      "option2": "Won",
+      "option3": "Yen",
+      "option4": "Ringgit"
+    },
+    "correct_option": "Yen"
+  },
+  {
+    "question": "Which continent is the country of Egypt in?",
+    "options": {
+      "option1": "Africa",
+      "option2": "Asia",
+      "option3": "Europe",
+      "option4": "Australia"
+    },
+    "correct_option": "Africa"
+  },
+  {
+    "question": "What is the largest desert in the world?",
+    "options": {
+      "option1": "Sahara Desert",
+      "option2": "Arabian Desert",
+      "option3": "Gobi Desert",
+      "option4": "Antarctic Desert"
+    },
+    "correct_option": "Antarctic Desert"
+  },
+  {
+    "question": "Which animal is known for its ability to produce electricity?",
+    "options": {
+      "option1": "Electric Eel",
+      "option2": "Shark",
+      "option3": "Dolphin",
+      "option4": "Whale"
+    },
+    "correct_option": "Electric Eel"
+  },
+  {
+    "question": "What is the name of the longest reigning monarch in British history?",
+    "options": {
+      "option1": "Queen Victoria",
+      "option2": "King Henry VIII",
+      "option3": "Queen Elizabeth II",
+      "option4": "King George III"
+    },
+    "correct_option": "Queen Elizabeth II"
+  },
+  {
+    "question": "Which of these is a famous ancient wonder?",
+    "options": {
+      "option1": "Eiffel Tower",
+      "option2": "Great Wall of China",
+      "option3": "Statue of Liberty",
+      "option4": "Great Pyramid of Giza"
+    },
+    "correct_option": "Great Pyramid of Giza"
+  },
+  {
+    "question": "Who was the first man to walk on the moon?",
+    "options": {
+      "option1": "Buzz Aldrin",
+      "option2": "Neil Armstrong",
+      "option3": "Michael Collins",
+      "option4": "Yuri Gagarin"
+    },
+    "correct_option": "Neil Armstrong"
+  },
+  {
+    "question": "What is the currency of the United Kingdom?",
+    "options": {
+      "option1": "Euro",
+      "option2": "Dollar",
+      "option3": "Pound Sterling",
+      "option4": "Franc"
+    },
+    "correct_option": "Pound Sterling"
+  },
+  {
+    "question": "Which element is necessary for fire?",
+    "options": {
+      "option1": "Oxygen",
+      "option2": "Carbon",
+      "option3": "Hydrogen",
+      "option4": "Nitrogen"
+    },
+    "correct_option": "Oxygen"
+  },
+  {
+    "question": "Which country is home to the famous Taj Mahal?",
+    "options": {
+      "option1": "India",
+      "option2": "Pakistan",
+      "option3": "Sri Lanka",
+      "option4": "Bangladesh"
+    },
+    "correct_option": "India"
+  },
+  {
+    "question": "What is the main ingredient in traditional Japanese sushi?",
+    "options": {
+      "option1": "Rice",
+      "option2": "Fish",
+      "option3": "Seaweed",
+      "option4": "Egg"
+    },
+    "correct_option": "Rice"
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "options": {
+      "option1": "Marie Curie",
+      "option2": "Louis Pasteur",
+      "option3": "Alexander Fleming",
+      "option4": "Charles Darwin"
+    },
+    "correct_option": "Alexander Fleming"
+  },
+  {
+    "question": "What is the capital city of Brazil?",
+    "options": {
+      "option1": "Rio de Janeiro",
+      "option2": "Sao Paulo",
+      "option3": "Brasília",
+      "option4": "Buenos Aires"
+    },
+    "correct_option": "Brasília"
+  },
+  {
+    "question": "Which vitamin is known as the 'sunshine vitamin'?",
+    "options": {
+      "option1": "Vitamin A",
+      "option2": "Vitamin C",
+      "option3": "Vitamin D",
+      "option4": "Vitamin E"
+    },
+    "correct_option": "Vitamin D"
+  },
+  {
+    "question": "What is the primary ingredient in guacamole?",
+    "options": {
+      "option1": "Tomato",
+      "option2": "Avocado",
+      "option3": "Onion",
+      "option4": "Garlic"
+    },
+    "correct_option": "Avocado"
+  },
+  {
+    "question": "What is the name of the largest planet in our solar system?",
+    "options": {
+      "option1": "Earth",
+      "option2": "Mars",
+      "option3": "Jupiter",
+      "option4": "Saturn"
+    },
+    "correct_option": "Jupiter"
+  },
+  {
+    "question": "Which animal is known as the king of the jungle?",
+    "options": {
+      "option1": "Lion",
+      "option2": "Elephant",
+      "option3": "Tiger",
+      "option4": "Giraffe"
+    },
+    "correct_option": "Lion"
+  },
+  {
+    "question": "What is the smallest planet in our solar system?",
+    "options": {
+      "option1": "Venus",
+      "option2": "Earth",
+      "option3": "Mercury",
+      "option4": "Mars"
+    },
+    "correct_option": "Mercury"
+  }
+]

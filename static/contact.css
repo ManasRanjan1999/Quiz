@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  animation: fadeInDown 1s;
+}
+
+form {
+  max-width: 100%; 
+  padding: 10px; 
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  min-height: 300px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 100px;
+  }
+
+form input, form textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

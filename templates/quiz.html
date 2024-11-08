@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='home.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='quiz.css') }}"
+    />
+  </head>
+  <body>
+    {% include 'header.html' %}
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="text-center mb-4">
+            <h1 class="display-4 text-primary">Quiz Time!</h1>
+          </div>
+
+          <form
+            id="quizForm"
+            action="{{ url_for('submit') }}"
+            method="POST"
+            class="quiz-form bg-white p-4 rounded shadow-sm"
+          >
+            {% for question in questions %}
+            <div id="question{{ question.id }}" class="question mb-4">
+              <h3 class="question-text text-dark">
+                {{ question.question_text }}
+              </h3>
+              {% for option in question.options %}
+              <div class="form-check option">
+                <input
+                  type="radio"
+                  name="{{ question.id }}"
+                  value="{{ option.id }}"
+                  class="form-check-input option-radio"
+                  id="option{{ option.id }}"
+                />
+                <label class="form-check-label" for="option{{ option.id }}">
+                  {{ option.option_text }}
+                </label>
+              </div>
+              {% endfor %}
+            </div>
+            {% endfor %}
+            <button type="submit" class="btn btn-primary w-100">
+              Submit Quiz
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="questionNavContainer" class="question-nav-container">
+      <h5 class="text-center">Attempt Question:</h5>
+      <div id="questionNav" class="d-flex flex-wrap justify-content-center">
+        {% for question in questions %}
+        <button
+          type="button"
+          class="btn btn-light question-nav-btn"
+          data-question-id="question{{ question.id }}"
+        >
+          {{ loop.index }}
+        </button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div id="timer-box" class="timer-box fixed-top">
+      <h2 id="timer">10:00</h2>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='quiz.js') }}"></script>
+    {% include 'footer.html' %}
+  </body>
+</html>

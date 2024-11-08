@@ -1,0 +1,24 @@
+body {
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 8px;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

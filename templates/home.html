@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quize App</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='home.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    {% include 'header.html' %}
+    <marquee onmouseover="this.stop()" onmouseout="this.start()">
+      <a href="#" class="marquee-link">Quiz Test 1 8th Nov 2024</a>
+      &nbsp;&nbsp;&nbsp;
+      <a href="#" class="marquee-link">Quiz Test 2 9th Nov 2024</a>
+      &nbsp;&nbsp;&nbsp;
+      <a href="#" class="marquee-link">Quiz Test 3 10 Nov 2024</a>
+      &nbsp;&nbsp;&nbsp;
+      <a href="#" class="marquee-link">For advance Quiz Practice Log In</a>
+    </marquee>
+
+    <section class="hero">
+      <h1>Welcome to Quiz App</h1>
+      <p>Best solution for Practice Quiz.</p>
+      <button onclick="alert('Thank you for your interest!')">
+        Learn More
+      </button>
+    </section>
+
+    <section class="services">
+      <h2>Our Course</h2>
+      <div class="service-list">
+        <div class="service-item">
+          <h1>Python</h1>
+          <h3>Python Programming</h3>
+          <p>
+            Learn the fundamentals of Python, one of the most popular and
+            versatile programming languages.
+          </p>
+        </div>
+        <div class="service-item">
+          <h1>🌐</h1>
+          <h3>Flask Framework</h3>
+          <p>
+            Master Flask, a lightweight and powerful framework for building web
+            applications quickly and efficiently.
+          </p>
+        </div>
+        <div class="service-item">
+          <h1>🔧</h1>
+          <h3>Django Framework</h3>
+          <p>
+            Develop robust and scalable web applications with Django, a
+            high-level Python web framework.
+          </p>
+        </div>
+        <div class="service-item">
+          <h1><a href="/quiz" class="quiz-link">Simple Quiz</a></h1>
+          <h3>Free For Everyone</h3>
+          <p>You can practice your quiz skills.</p>
+        </div>
+
+        <div class="service-item">
+          <h1><a href="/login" class="quiz-link">Advance Quiz</a></h1>
+          <h3>For Registered Users</h3>
+          <p>High level quiz exam related.</p>
+        </div>
+      </div>
+    </section>
+
+    {% include 'footer.html' %}
+  </body>
+</html>

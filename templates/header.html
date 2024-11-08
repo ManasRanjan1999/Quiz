@@ -1,0 +1,48 @@
+<header class="header">
+  <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}" />
+  <nav>
+    <ul>
+      <li>
+        <a href="/" class="{{ 'active' if request.path == '/' else '' }}"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          href="/aboutUs"
+          class="{{ 'active' if request.path == '/aboutUs' else '' }}"
+          >About</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="/quiz"
+          class="{{ 'active' if request.path == '/quiz' else '' }}"
+          >Quiz Test</a
+        >
+      </li>
+
+      <li>
+        <a href="#" class="{{ 'active' if request.path == '/course' else '' }}"
+          >Course</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="/login"
+          class="{{ 'active' if request.path == '/login' else '' }}"
+          >Login</a
+        >
+      </li>
+      <li>
+        <a
+          href="/contact"
+          class="{{ 'active' if request.path == '/contact' else '' }}"
+          >Contact</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>
